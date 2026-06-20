@@ -1,0 +1,291 @@
+{
+    "name": "3",
+    "width": 48,
+    "height": 48,
+    "animations": {
+        "attack": {
+            "frames": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5
+            ],
+            "speed": 150,
+            "source": "Attack.png"
+        },
+        "attack1(1)": {
+            "frames": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5
+            ],
+            "speed": 150,
+            "source": "Attack1(1).png"
+        },
+        "attack1": {
+            "frames": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5
+            ],
+            "speed": 150,
+            "source": "Attack1.png"
+        },
+        "attack2(1)": {
+            "frames": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5
+            ],
+            "speed": 150,
+            "source": "Attack2(1).png"
+        },
+        "attack2": {
+            "frames": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5
+            ],
+            "speed": 150,
+            "source": "Attack2.png"
+        },
+        "attack3(1)": {
+            "frames": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5
+            ],
+            "speed": 150,
+            "source": "Attack3(1).png"
+        },
+        "attack3": {
+            "frames": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5
+            ],
+            "speed": 150,
+            "source": "Attack3.png"
+        },
+        "attack4(1)": {
+            "frames": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5
+            ],
+            "speed": 150,
+            "source": "Attack4(1).png"
+        },
+        "attack4": {
+            "frames": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5
+            ],
+            "speed": 150,
+            "source": "Attack4.png"
+        },
+        "attack4_2": {
+            "frames": [
+                0,
+                1,
+                2,
+                3
+            ],
+            "speed": 150,
+            "source": "Attack4_2.png"
+        },
+        "death(1)": {
+            "frames": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5
+            ],
+            "speed": 150,
+            "source": "Death(1).png"
+        },
+        "death(2)": {
+            "frames": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5
+            ],
+            "speed": 150,
+            "source": "Death(2).png"
+        },
+        "death": {
+            "frames": [
+                0,
+                1,
+                2,
+                3
+            ],
+            "speed": 150,
+            "source": "Death.png"
+        },
+        "hurt(1)": {
+            "frames": [
+                0,
+                1
+            ],
+            "speed": 150,
+            "source": "Hurt(1).png"
+        },
+        "hurt(2)": {
+            "frames": [
+                0,
+                1
+            ],
+            "speed": 150,
+            "source": "Hurt(2).png"
+        },
+        "hurt": {
+            "frames": [
+                0,
+                1,
+                2,
+                3
+            ],
+            "speed": 150,
+            "source": "Hurt.png"
+        },
+        "idle(1)": {
+            "frames": [
+                0,
+                1,
+                2,
+                3
+            ],
+            "speed": 150,
+            "source": "Idle(1).png"
+        },
+        "idle(2)": {
+            "frames": [
+                0,
+                1,
+                2,
+                3
+            ],
+            "speed": 150,
+            "source": "Idle(2).png"
+        },
+        "idle": {
+            "frames": [
+                0,
+                1,
+                2,
+                3
+            ],
+            "speed": 150,
+            "source": "Idle.png"
+        },
+        "projectile(1)": {
+            "frames": [
+                0,
+                1,
+                2,
+                3
+            ],
+            "speed": 150,
+            "source": "Projectile(1).png"
+        },
+        "projectile": {
+            "frames": [
+                0
+            ],
+            "speed": 150,
+            "source": "Projectile.png"
+        },
+        "special(1)": {
+            "frames": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5
+            ],
+            "speed": 150,
+            "source": "Special(1).png"
+        },
+        "special": {
+            "frames": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5
+            ],
+            "speed": 150,
+            "source": "Special.png"
+        },
+        "walk(1)": {
+            "frames": [
+                0,
+                1,
+                2,
+                3
+            ],
+            "speed": 150,
+            "source": "Walk(1).png"
+        },
+        "walk(2)": {
+            "frames": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5
+            ],
+            "speed": 150,
+            "source": "Walk(2).png"
+        },
+        "walk": {
+            "frames": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5
+            ],
+            "speed": 150,
+            "source": "Walk.png"
+        }
+    },
+    "auto_generated": true
+}

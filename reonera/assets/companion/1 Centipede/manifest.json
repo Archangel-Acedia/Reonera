@@ -1,0 +1,109 @@
+{
+    "name": "1 centipede",
+    "width": 72,
+    "height": 72,
+    "animations": {
+        "centipede": {
+            "frames": [
+                0
+            ],
+            "speed": 150,
+            "source": "Centipede.png"
+        },
+        "centipede_attack1": {
+            "frames": [
+                0,
+                1,
+                2,
+                3
+            ],
+            "speed": 150,
+            "source": "Centipede_attack1.png"
+        },
+        "centipede_attack2": {
+            "frames": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5
+            ],
+            "speed": 150,
+            "source": "Centipede_attack2.png"
+        },
+        "centipede_attack3": {
+            "frames": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5
+            ],
+            "speed": 150,
+            "source": "Centipede_attack3.png"
+        },
+        "centipede_attack4": {
+            "frames": [
+                0,
+                1,
+                2,
+                3
+            ],
+            "speed": 150,
+            "source": "Centipede_attack4.png"
+        },
+        "centipede_death": {
+            "frames": [
+                0,
+                1,
+                2,
+                3
+            ],
+            "speed": 150,
+            "source": "Centipede_death.png"
+        },
+        "centipede_hurt": {
+            "frames": [
+                0,
+                1
+            ],
+            "speed": 150,
+            "source": "Centipede_hurt.png"
+        },
+        "centipede_idle": {
+            "frames": [
+                0,
+                1,
+                2,
+                3
+            ],
+            "speed": 150,
+            "source": "Centipede_idle.png"
+        },
+        "centipede_sneer": {
+            "frames": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5
+            ],
+            "speed": 150,
+            "source": "Centipede_sneer.png"
+        },
+        "centipede_walk": {
+            "frames": [
+                0,
+                1,
+                2,
+                3
+            ],
+            "speed": 150,
+            "source": "Centipede_walk.png"
+        }
+    },
+    "auto_generated": true
+}

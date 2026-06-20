@@ -1,0 +1,133 @@
+{
+    "name": "2 battle turtle",
+    "width": 72,
+    "height": 72,
+    "animations": {
+        "battle_turtle": {
+            "frames": [
+                0
+            ],
+            "speed": 150,
+            "source": "Battle_turtle.png"
+        },
+        "battle_turtle_attack1": {
+            "frames": [
+                0,
+                1,
+                2,
+                3
+            ],
+            "speed": 150,
+            "source": "Battle_turtle_attack1.png"
+        },
+        "battle_turtle_attack2": {
+            "frames": [
+                0,
+                1,
+                2,
+                3
+            ],
+            "speed": 150,
+            "source": "Battle_turtle_attack2.png"
+        },
+        "battle_turtle_attack3": {
+            "frames": [
+                0,
+                1,
+                2,
+                3
+            ],
+            "speed": 150,
+            "source": "Battle_turtle_attack3.png"
+        },
+        "battle_turtle_attack4": {
+            "frames": [
+                0,
+                1,
+                2,
+                3
+            ],
+            "speed": 150,
+            "source": "Battle_turtle_attack4.png"
+        },
+        "battle_turtle_death": {
+            "frames": [
+                0,
+                1,
+                2,
+                3
+            ],
+            "speed": 150,
+            "source": "Battle_turtle_death.png"
+        },
+        "battle_turtle_hurt": {
+            "frames": [
+                0,
+                1
+            ],
+            "speed": 150,
+            "source": "Battle_turtle_hurt.png"
+        },
+        "battle_turtle_idle": {
+            "frames": [
+                0,
+                1,
+                2,
+                3
+            ],
+            "speed": 150,
+            "source": "Battle_turtle_idle.png"
+        },
+        "battle_turtle_sneer": {
+            "frames": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5
+            ],
+            "speed": 150,
+            "source": "Battle_turtle_sneer.png"
+        },
+        "battle_turtle_walk": {
+            "frames": [
+                0,
+                1,
+                2,
+                3
+            ],
+            "speed": 150,
+            "source": "Battle_turtle_walk.png"
+        },
+        "bullet1": {
+            "frames": [
+                0
+            ],
+            "speed": 150,
+            "source": "Bullet1.png"
+        },
+        "bullet2": {
+            "frames": [
+                0
+            ],
+            "speed": 150,
+            "source": "Bullet2.png"
+        },
+        "bullet3": {
+            "frames": [
+                0
+            ],
+            "speed": 150,
+            "source": "Bullet3.png"
+        },
+        "bullet4": {
+            "frames": [
+                0
+            ],
+            "speed": 150,
+            "source": "Bullet4.png"
+        }
+    },
+    "auto_generated": true
+}

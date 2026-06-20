@@ -1,0 +1,127 @@
+{
+    "name": "Jeep_1",
+    "width": 192,
+    "height": 192,
+    "animations": {
+        "bonnet": {
+            "frames": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9
+            ],
+            "speed": 150,
+            "source": "Bonnet.png"
+        },
+        "brake": {
+            "frames": [
+                0,
+                1,
+                2
+            ],
+            "speed": 150,
+            "source": "Brake.png"
+        },
+        "damage": {
+            "frames": [
+                0,
+                1,
+                2
+            ],
+            "speed": 150,
+            "source": "Damage.png"
+        },
+        "destroyed": {
+            "frames": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10
+            ],
+            "speed": 150,
+            "source": "Destroyed.png"
+        },
+        "door": {
+            "frames": [
+                0,
+                1,
+                2
+            ],
+            "speed": 150,
+            "source": "Door.png"
+        },
+        "headlight": {
+            "frames": [
+                0,
+                1,
+                2
+            ],
+            "speed": 150,
+            "source": "Headlight.png"
+        },
+        "idle": {
+            "frames": [
+                0,
+                1,
+                2,
+                3
+            ],
+            "speed": 150,
+            "source": "Idle.png"
+        },
+        "ride": {
+            "frames": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+            ],
+            "speed": 150,
+            "source": "Ride.png"
+        },
+        "ride_back": {
+            "frames": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+            ],
+            "speed": 150,
+            "source": "Ride_back.png"
+        },
+        "trunk": {
+            "frames": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5
+            ],
+            "speed": 150,
+            "source": "Trunk.png"
+        }
+    },
+    "auto_generated": true
+}

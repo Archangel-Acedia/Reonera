@@ -1,0 +1,135 @@
+{
+    "name": "Soldier_2",
+    "width": 128,
+    "height": 128,
+    "animations": {
+        "attack": {
+            "frames": [
+                0,
+                1,
+                2,
+                3
+            ],
+            "speed": 150,
+            "source": "Attack.png"
+        },
+        "dead": {
+            "frames": [
+                0,
+                1,
+                2,
+                3
+            ],
+            "speed": 150,
+            "source": "Dead.png"
+        },
+        "grenade": {
+            "frames": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15
+            ],
+            "speed": 150,
+            "source": "Grenade.png"
+        },
+        "hurt": {
+            "frames": [
+                0,
+                1,
+                2
+            ],
+            "speed": 150,
+            "source": "Hurt.png"
+        },
+        "idle": {
+            "frames": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8
+            ],
+            "speed": 150,
+            "source": "Idle.png"
+        },
+        "recharge": {
+            "frames": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6
+            ],
+            "speed": 150,
+            "source": "Recharge.png"
+        },
+        "run": {
+            "frames": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+            ],
+            "speed": 150,
+            "source": "Run.png"
+        },
+        "shot_1": {
+            "frames": [
+                0,
+                1,
+                2,
+                3
+            ],
+            "speed": 150,
+            "source": "Shot_1.png"
+        },
+        "shot_2": {
+            "frames": [
+                0,
+                1,
+                2,
+                3
+            ],
+            "speed": 150,
+            "source": "Shot_2.png"
+        },
+        "walk": {
+            "frames": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+            ],
+            "speed": 150,
+            "source": "Walk.png"
+        }
+    },
+    "auto_generated": true
+}

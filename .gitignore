@@ -1,0 +1,17 @@
+# Ignore private encryption keys and operational configurations
+reonera/.reonera.key
+reonera/*.reonera_profile
+reonera/.bootstrapped
+reonera/target_state.png
+
+
+# Ignore local Python environments & cache blocks
+venv/
+.venv/
+__pycache__/
+*.pyc
+
+# Ignore PyInstaller executable build outputs
+build/
+dist/
+*.spec

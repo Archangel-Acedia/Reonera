@@ -1,0 +1,251 @@
+{
+    "name": "Fighter",
+    "width": 128,
+    "height": 128,
+    "animations": {
+        "attack_1(1)": {
+            "frames": [
+                0,
+                1,
+                2,
+                3
+            ],
+            "speed": 150,
+            "source": "Attack_1(1).png"
+        },
+        "attack_1": {
+            "frames": [
+                0,
+                1,
+                2,
+                3
+            ],
+            "speed": 150,
+            "source": "Attack_1.png"
+        },
+        "attack_2(1)": {
+            "frames": [
+                0,
+                1,
+                2
+            ],
+            "speed": 150,
+            "source": "Attack_2(1).png"
+        },
+        "attack_2": {
+            "frames": [
+                0,
+                1
+            ],
+            "speed": 150,
+            "source": "Attack_2.png"
+        },
+        "attack_3": {
+            "frames": [
+                0,
+                1,
+                2,
+                3
+            ],
+            "speed": 150,
+            "source": "Attack_3.png"
+        },
+        "boost": {
+            "frames": [
+                0,
+                1,
+                2,
+                3,
+                4
+            ],
+            "speed": 150,
+            "source": "Boost.png"
+        },
+        "charge_1": {
+            "frames": [
+                0
+            ],
+            "speed": 150,
+            "source": "Charge_1.png"
+        },
+        "charge_2": {
+            "frames": [
+                0
+            ],
+            "speed": 150,
+            "source": "Charge_2.png"
+        },
+        "damage": {
+            "frames": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8
+            ],
+            "speed": 150,
+            "source": "Damage.png"
+        },
+        "dead": {
+            "frames": [
+                0,
+                1,
+                2
+            ],
+            "speed": 150,
+            "source": "Dead.png"
+        },
+        "destroyed": {
+            "frames": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14
+            ],
+            "speed": 150,
+            "source": "Destroyed.png"
+        },
+        "evasion": {
+            "frames": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+            ],
+            "speed": 150,
+            "source": "Evasion.png"
+        },
+        "hurt": {
+            "frames": [
+                0,
+                1,
+                2
+            ],
+            "speed": 150,
+            "source": "Hurt.png"
+        },
+        "idle(1)": {
+            "frames": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5
+            ],
+            "speed": 150,
+            "source": "Idle(1).png"
+        },
+        "idle": {
+            "frames": [
+                0
+            ],
+            "speed": 150,
+            "source": "Idle.png"
+        },
+        "jump": {
+            "frames": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9
+            ],
+            "speed": 150,
+            "source": "Jump.png"
+        },
+        "move": {
+            "frames": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5
+            ],
+            "speed": 150,
+            "source": "Move.png"
+        },
+        "run": {
+            "frames": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+            ],
+            "speed": 150,
+            "source": "Run.png"
+        },
+        "shield": {
+            "frames": [
+                0,
+                1
+            ],
+            "speed": 150,
+            "source": "Shield.png"
+        },
+        "turn_1": {
+            "frames": [
+                0,
+                1,
+                2,
+                3
+            ],
+            "speed": 150,
+            "source": "Turn_1.png"
+        },
+        "turn_2": {
+            "frames": [
+                0,
+                1,
+                2,
+                3
+            ],
+            "speed": 150,
+            "source": "Turn_2.png"
+        },
+        "walk": {
+            "frames": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+            ],
+            "speed": 150,
+            "source": "Walk.png"
+        }
+    },
+    "auto_generated": true
+}

@@ -1,0 +1,190 @@
+{
+    "name": "1 pink_monster",
+    "width": 32,
+    "height": 32,
+    "animations": {
+        "double_jump_dust_5": {
+            "frames": [
+                0,
+                1,
+                2,
+                3,
+                4
+            ],
+            "speed": 150,
+            "source": "Double_Jump_Dust_5.png"
+        },
+        "pink_monster": {
+            "frames": [
+                0
+            ],
+            "speed": 150,
+            "source": "Pink_Monster.png"
+        },
+        "pink_monster_attack1_4": {
+            "frames": [
+                0,
+                1,
+                2,
+                3
+            ],
+            "speed": 150,
+            "source": "Pink_Monster_Attack1_4.png"
+        },
+        "pink_monster_attack2_6": {
+            "frames": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5
+            ],
+            "speed": 150,
+            "source": "Pink_Monster_Attack2_6.png"
+        },
+        "pink_monster_climb_4": {
+            "frames": [
+                0,
+                1,
+                2,
+                3
+            ],
+            "speed": 150,
+            "source": "Pink_Monster_Climb_4.png"
+        },
+        "pink_monster_death_8": {
+            "frames": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+            ],
+            "speed": 150,
+            "source": "Pink_Monster_Death_8.png"
+        },
+        "pink_monster_hurt_4": {
+            "frames": [
+                0,
+                1,
+                2,
+                3
+            ],
+            "speed": 150,
+            "source": "Pink_Monster_Hurt_4.png"
+        },
+        "pink_monster_idle_4": {
+            "frames": [
+                0,
+                1,
+                2,
+                3
+            ],
+            "speed": 150,
+            "source": "Pink_Monster_Idle_4.png"
+        },
+        "pink_monster_jump_8": {
+            "frames": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+            ],
+            "speed": 150,
+            "source": "Pink_Monster_Jump_8.png"
+        },
+        "pink_monster_push_6": {
+            "frames": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5
+            ],
+            "speed": 150,
+            "source": "Pink_Monster_Push_6.png"
+        },
+        "pink_monster_run_6": {
+            "frames": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5
+            ],
+            "speed": 150,
+            "source": "Pink_Monster_Run_6.png"
+        },
+        "pink_monster_throw_4": {
+            "frames": [
+                0,
+                1,
+                2,
+                3
+            ],
+            "speed": 150,
+            "source": "Pink_Monster_Throw_4.png"
+        },
+        "pink_monster_walk+attack_6": {
+            "frames": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5
+            ],
+            "speed": 150,
+            "source": "Pink_Monster_Walk+Attack_6.png"
+        },
+        "pink_monster_walk_6": {
+            "frames": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5
+            ],
+            "speed": 150,
+            "source": "Pink_Monster_Walk_6.png"
+        },
+        "rock1": {
+            "frames": [
+                0
+            ],
+            "speed": 150,
+            "source": "Rock1.png"
+        },
+        "rock2": {
+            "frames": [
+                0
+            ],
+            "speed": 150,
+            "source": "Rock2.png"
+        },
+        "walk_run_push_dust_6": {
+            "frames": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5
+            ],
+            "speed": 150,
+            "source": "Walk_Run_Push_Dust_6.png"
+        }
+    },
+    "auto_generated": true
+}

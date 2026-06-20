@@ -1,0 +1,163 @@
+{
+    "name": "Corvette",
+    "width": 192,
+    "height": 192,
+    "animations": {
+        "attack_1": {
+            "frames": [
+                0,
+                1,
+                2,
+                3
+            ],
+            "speed": 150,
+            "source": "Attack_1.png"
+        },
+        "attack_2": {
+            "frames": [
+                0,
+                1,
+                2,
+                3
+            ],
+            "speed": 150,
+            "source": "Attack_2.png"
+        },
+        "boost": {
+            "frames": [
+                0,
+                1,
+                2,
+                3,
+                4
+            ],
+            "speed": 150,
+            "source": "Boost.png"
+        },
+        "charge_1": {
+            "frames": [
+                0
+            ],
+            "speed": 150,
+            "source": "Charge_1.png"
+        },
+        "charge_2": {
+            "frames": [
+                0
+            ],
+            "speed": 150,
+            "source": "Charge_2.png"
+        },
+        "charge_3": {
+            "frames": [
+                0,
+                1,
+                2
+            ],
+            "speed": 150,
+            "source": "Charge_3.png"
+        },
+        "damage": {
+            "frames": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9
+            ],
+            "speed": 150,
+            "source": "Damage.png"
+        },
+        "destroyed": {
+            "frames": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20
+            ],
+            "speed": 150,
+            "source": "Destroyed.png"
+        },
+        "idle": {
+            "frames": [
+                0
+            ],
+            "speed": 150,
+            "source": "Idle.png"
+        },
+        "move": {
+            "frames": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5
+            ],
+            "speed": 150,
+            "source": "Move.png"
+        },
+        "rockets": {
+            "frames": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6
+            ],
+            "speed": 150,
+            "source": "Rockets.png"
+        },
+        "shild": {
+            "frames": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5
+            ],
+            "speed": 150,
+            "source": "Shild.png"
+        },
+        "turret": {
+            "frames": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+            ],
+            "speed": 150,
+            "source": "Turret.png"
+        }
+    },
+    "auto_generated": true
+}

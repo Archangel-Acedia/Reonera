@@ -1,0 +1,14 @@
+{
+    "name": "Craftpix_orc",
+    "width": 64,
+    "height": 64,
+    "animations": {
+        "idle": {
+            "frames": [
+                0
+            ],
+            "speed": 150
+        }
+    },
+    "auto_generated": true
+}

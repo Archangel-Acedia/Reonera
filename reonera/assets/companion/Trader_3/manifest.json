@@ -1,0 +1,77 @@
+{
+    "name": "Trader_3",
+    "width": 128,
+    "height": 128,
+    "animations": {
+        "approval": {
+            "frames": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5
+            ],
+            "speed": 150,
+            "source": "Approval.png"
+        },
+        "dialogue": {
+            "frames": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5
+            ],
+            "speed": 150,
+            "source": "Dialogue.png"
+        },
+        "idle": {
+            "frames": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5
+            ],
+            "speed": 150,
+            "source": "Idle.png"
+        },
+        "idle_2": {
+            "frames": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5
+            ],
+            "speed": 150,
+            "source": "Idle_2.png"
+        },
+        "idle_3": {
+            "frames": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14
+            ],
+            "speed": 150,
+            "source": "Idle_3.png"
+        }
+    },
+    "auto_generated": true
+}

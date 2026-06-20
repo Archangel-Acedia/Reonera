@@ -1,0 +1,155 @@
+{
+    "name": "Fire wizard",
+    "width": 128,
+    "height": 128,
+    "animations": {
+        "attack_1": {
+            "frames": [
+                0,
+                1,
+                2,
+                3
+            ],
+            "speed": 150,
+            "source": "Attack_1.png"
+        },
+        "attack_2": {
+            "frames": [
+                0,
+                1,
+                2,
+                3
+            ],
+            "speed": 150,
+            "source": "Attack_2.png"
+        },
+        "charge": {
+            "frames": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11
+            ],
+            "speed": 150,
+            "source": "Charge.png"
+        },
+        "dead": {
+            "frames": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5
+            ],
+            "speed": 150,
+            "source": "Dead.png"
+        },
+        "fireball": {
+            "frames": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+            ],
+            "speed": 150,
+            "source": "Fireball.png"
+        },
+        "flame_jet": {
+            "frames": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13
+            ],
+            "speed": 150,
+            "source": "Flame_jet.png"
+        },
+        "hurt": {
+            "frames": [
+                0,
+                1,
+                2
+            ],
+            "speed": 150,
+            "source": "Hurt.png"
+        },
+        "idle": {
+            "frames": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6
+            ],
+            "speed": 150,
+            "source": "Idle.png"
+        },
+        "jump": {
+            "frames": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8
+            ],
+            "speed": 150,
+            "source": "Jump.png"
+        },
+        "run": {
+            "frames": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+            ],
+            "speed": 150,
+            "source": "Run.png"
+        },
+        "walk": {
+            "frames": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5
+            ],
+            "speed": 150,
+            "source": "Walk.png"
+        }
+    },
+    "auto_generated": true
+}

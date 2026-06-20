@@ -1,0 +1,124 @@
+{
+    "name": "Passenger car",
+    "width": 192,
+    "height": 192,
+    "animations": {
+        "bonnet": {
+            "frames": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10
+            ],
+            "speed": 150,
+            "source": "Bonnet.png"
+        },
+        "brake": {
+            "frames": [
+                0,
+                1,
+                2
+            ],
+            "speed": 150,
+            "source": "Brake.png"
+        },
+        "damage": {
+            "frames": [
+                0,
+                1,
+                2
+            ],
+            "speed": 150,
+            "source": "Damage.png"
+        },
+        "destroyed": {
+            "frames": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9
+            ],
+            "speed": 150,
+            "source": "Destroyed.png"
+        },
+        "door": {
+            "frames": [
+                0,
+                1,
+                2
+            ],
+            "speed": 150,
+            "source": "Door.png"
+        },
+        "headlight": {
+            "frames": [
+                0,
+                1,
+                2
+            ],
+            "speed": 150,
+            "source": "Headlight.png"
+        },
+        "passenger car_spritelist": {
+            "frames": [
+                0
+            ],
+            "speed": 150,
+            "source": "Passenger car_Spritelist.png"
+        },
+        "ride": {
+            "frames": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+            ],
+            "speed": 150,
+            "source": "Ride.png"
+        },
+        "ride_back": {
+            "frames": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+            ],
+            "speed": 150,
+            "source": "Ride_Back.png"
+        },
+        "trunk": {
+            "frames": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5
+            ],
+            "speed": 150,
+            "source": "Trunk.png"
+        }
+    },
+    "auto_generated": true
+}

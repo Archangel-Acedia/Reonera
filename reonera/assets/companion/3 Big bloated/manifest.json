@@ -1,0 +1,118 @@
+{
+    "name": "3 big bloated",
+    "width": 72,
+    "height": 72,
+    "animations": {
+        "big_bloated": {
+            "frames": [
+                0
+            ],
+            "speed": 150,
+            "source": "Big_bloated.png"
+        },
+        "big_bloated_attack1": {
+            "frames": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5
+            ],
+            "speed": 150,
+            "source": "Big_bloated_attack1.png"
+        },
+        "big_bloated_attack2": {
+            "frames": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5
+            ],
+            "speed": 150,
+            "source": "Big_bloated_attack2.png"
+        },
+        "big_bloated_attack3": {
+            "frames": [
+                0,
+                1,
+                2,
+                3
+            ],
+            "speed": 150,
+            "source": "Big_bloated_attack3.png"
+        },
+        "big_bloated_attack4": {
+            "frames": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5
+            ],
+            "speed": 150,
+            "source": "Big_bloated_attack4.png"
+        },
+        "big_bloated_death": {
+            "frames": [
+                0,
+                1,
+                2,
+                3
+            ],
+            "speed": 150,
+            "source": "Big_bloated_death.png"
+        },
+        "big_bloated_hurt": {
+            "frames": [
+                0,
+                1
+            ],
+            "speed": 150,
+            "source": "Big_bloated_hurt.png"
+        },
+        "big_bloated_idle": {
+            "frames": [
+                0,
+                1,
+                2,
+                3
+            ],
+            "speed": 150,
+            "source": "Big_bloated_idle.png"
+        },
+        "big_bloated_sneer": {
+            "frames": [
+                0,
+                1,
+                2,
+                3
+            ],
+            "speed": 150,
+            "source": "Big_bloated_sneer.png"
+        },
+        "big_bloated_walk": {
+            "frames": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5
+            ],
+            "speed": 150,
+            "source": "Big_bloated_walk.png"
+        },
+        "bolt": {
+            "frames": [
+                0
+            ],
+            "speed": 150,
+            "source": "Bolt.png"
+        }
+    },
+    "auto_generated": true
+}

@@ -1,0 +1,60 @@
+{
+    "name": "4",
+    "width": 48,
+    "height": 48,
+    "animations": {
+        "attack": {
+            "frames": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5
+            ],
+            "speed": 150,
+            "source": "Attack.png"
+        },
+        "death": {
+            "frames": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5
+            ],
+            "speed": 150,
+            "source": "Death.png"
+        },
+        "hurt": {
+            "frames": [
+                0,
+                1
+            ],
+            "speed": 150,
+            "source": "Hurt.png"
+        },
+        "idle": {
+            "frames": [
+                0,
+                1,
+                2,
+                3
+            ],
+            "speed": 150,
+            "source": "Idle.png"
+        },
+        "walk": {
+            "frames": [
+                0,
+                1,
+                2,
+                3
+            ],
+            "speed": 150,
+            "source": "Walk.png"
+        }
+    },
+    "auto_generated": true
+}

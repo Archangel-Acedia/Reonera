@@ -1,0 +1,156 @@
+{
+    "name": "Lightning mage",
+    "width": 128,
+    "height": 128,
+    "animations": {
+        "attack_1": {
+            "frames": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9
+            ],
+            "speed": 150,
+            "source": "Attack_1.png"
+        },
+        "attack_2": {
+            "frames": [
+                0,
+                1,
+                2,
+                3
+            ],
+            "speed": 150,
+            "source": "Attack_2.png"
+        },
+        "charge": {
+            "frames": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9
+            ],
+            "speed": 150,
+            "source": "Charge.png"
+        },
+        "dead": {
+            "frames": [
+                0,
+                1,
+                2,
+                3,
+                4
+            ],
+            "speed": 150,
+            "source": "Dead.png"
+        },
+        "hurt": {
+            "frames": [
+                0,
+                1,
+                2
+            ],
+            "speed": 150,
+            "source": "Hurt.png"
+        },
+        "idle": {
+            "frames": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6
+            ],
+            "speed": 150,
+            "source": "Idle.png"
+        },
+        "jump": {
+            "frames": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+            ],
+            "speed": 150,
+            "source": "Jump.png"
+        },
+        "light_ball": {
+            "frames": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6
+            ],
+            "speed": 150,
+            "source": "Light_ball.png"
+        },
+        "light_charge": {
+            "frames": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12
+            ],
+            "speed": 150,
+            "source": "Light_charge.png"
+        },
+        "run": {
+            "frames": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+            ],
+            "speed": 150,
+            "source": "Run.png"
+        },
+        "walk": {
+            "frames": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6
+            ],
+            "speed": 150,
+            "source": "Walk.png"
+        }
+    },
+    "auto_generated": true
+}
