@@ -227,8 +227,9 @@ python Reonera.py
 REONERA is a living platform. Current development goals include:
 
 1. **Ongoing Stabilization & Bug Fixes:** Minor optimizations to the OpenGL compiler context and multi-monitor coordinate tracking to handle Windows scaling quirks more gracefully.  
-2. **Dynamic Jitter Profiles:** Future updates will introduce customizable curve parameters for the ballistic decoy clicks.  
-3. **The "Stripped Core" Version:** We are actively planning a lightweight, headless variant of REONERA. This version will strip out the PyQt6 UI, the OpenGL graphics engine, and the companions entirely—shipping as a pure, ultra-low-overhead command-line interface (CLI) for users who only want the raw detection mathematics running silently in the background on weaker hardware.
+2. **Adding UI customization for each theme.**
+3. **Dynamic Jitter Profiles:** Future updates will introduce customizable curve parameters for the ballistic decoy clicks.  
+4. **The "Stripped Core" Version:** We are actively planning a lightweight, headless variant of REONERA. This version will strip out the PyQt6 UI, the OpenGL graphics engine, and the companions entirely—shipping as a pure, ultra-low-overhead command-line interface (CLI) for users who only want the raw detection mathematics running silently in the background on weaker hardware.
 
 ## **⚖️ Terms of Service & Security Disclaimer**
 
