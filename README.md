@@ -4,7 +4,7 @@
 
 *REONERA is a frameless, hardware-accelerated desktop console that actively monitors target application windows, detects sub-pixel visual changes in real-time, and dispatches encrypted multi-channe[...]
 
-[What is REONERA?](#what-is-reonera) • [Anti-Detection](#anti-detection) • [Vision Engine](#vision-engine) • [Quick Start](#quick-start) • [UI & Settings](#ui--settings)
+[What is REONERA?](#what-is-reonera) • [Anti-Detection](#anti-detection) • [Vision Engine](#vision-engine) • [Quick Start](#quick-start) • [UI & Settings](#ui--settings) • [Advanced Architecture](#advanced-architecture)
 
 <a name="what-is-reonera"></a>
 ## **🎯 What is REONERA? (The Use-Case)**
