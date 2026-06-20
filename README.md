@@ -1,4 +1,4 @@
-[README.md](https://github.com/user-attachments/files/29158530/README.md)# **🌌 REONERA ENGINE**
+**🌌 REONERA ENGINE**
 
 **Expert High-Fidelity Desktop Automation & Vision Platform**
 
