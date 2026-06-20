@@ -1659,8 +1659,8 @@ class CompanionCombatEngine(QWidget):
     error_signal = pyqtSignal(str)
     position_changed = pyqtSignal(int, int)
     SPRITE_SCALE = 1.75
-    BASE_WIDTH = 420
-    BASE_HEIGHT = 190
+    BASE_WIDTH = 500
+    BASE_HEIGHT = 280
     
     def __init__(self, app_ref=None, slot_id=0):
         super().__init__(None)
