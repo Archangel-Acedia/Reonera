@@ -2,27 +2,30 @@
 
 **Expert High-Fidelity Desktop Automation & Vision Platform**
 
-*REONERA is a frameless, hardware-accelerated desktop console that actively monitors target application windows, detects sub-pixel visual changes in real-time, and dispatches encrypted multi-channel alerts—all while wrapped in a completely customizable, immersive GLSL environment.*
+*REONERA is a frameless, hardware-accelerated desktop console that actively monitors target application windows, detects sub-pixel visual changes in real-time, and dispatches encrypted multi-channe[...]
 
-[What is REONERA?](#bookmark=id.w7v3l4p3u51b) • [Anti-Detection](#bookmark=id.emtcipwbz7j1) • [Vision Engine](#bookmark=id.im8r8s5nx0ur) • [Quick Start](#bookmark=id.cw27422g2a0k) • [UI & Settings](#bookmark=id.67rawsfcy94y) • [Roadmap](#bookmark=id.kno0hfwzfyet) • [Advanced Architecture](#bookmark=id.advanced_architecture)
+[What is REONERA?](#what-is-reonera) • [Anti-Detection](#anti-detection) • [Vision Engine](#vision-engine) • [Quick Start](#quick-start) • [UI & Settings](#ui--settings)
 
+<a name="what-is-reonera"></a>
 ## **🎯 What is REONERA? (The Use-Case)**
 
-REONERA was explicitly designed to monitor high-security, browser-based task queues and dashboards—such as AI training sites: Outlier, DataAnnotation, etc sites, freelance job boards, or rapid-response ticketing systems.
+REONERA was explicitly designed to monitor high-security, browser-based task queues and dashboards—such as AI training sites: Outlier, DataAnnotation, etc sites, freelance job boards, or rapid-r[...]
 
-When you are waiting for tasks to drop, manually refreshing a page for hours is inefficient and exhausting. REONERA automates this process by visually scanning the webpage for you, instantly halting and pinging your phone or desktop the millisecond a new task appears.
+When you are waiting for tasks to drop, manually refreshing a page for hours is inefficient and exhausting. REONERA automates this process by visually scanning the webpage for you, instantly halti[...]
 
-However, because these platforms employ strict anti-bot telemetry, traditional automation tools (like Selenium or basic auto-clickers or auto-refreshers like Destill) lead to instant account bans. REONERA bypasses this by operating entirely at the **Operating System & Computer Vision level**. It does not inject code into the browser, it does not read the DOM, and it utilizes advanced human-emulation mathematics to ensure your web traffic looks 100% organic.
+However, because these platforms employ strict anti-bot telemetry, traditional automation tools (like Selenium or basic auto-clickers or auto-refreshers like Destill) lead to instant account bans.[...]
 
+<a name="anti-detection"></a>
 ## **🛡️ Stealth & Anti-Detection Mechanics**
 
 REONERA employs a multi-layered humanization framework to avoid detection algorithms:
 
-* **Browser Focus Spoofing:** Bots often click on windows that are out of focus, which is an immediate red flag. REONERA uses native OS hooks to silently pull your browser window into the active foreground milliseconds before a click, ensuring the site registers a legitimate focused interaction.  
-* **The Circadian Engine:** No human works for 12 hours straight without pausing. The engine tracks your shift duration and calculates massive 30-to-45-minute "organic breaks" every \~3 hours, taking its hands off the keyboard completely to mimic human fatigue.  
-* **Ballistic Decoy Clicks:** Instead of just refreshing the page, REONERA occasionally fires randomized "decoy clicks" into a designated Safe Zone (empty whitespace on the page). It uses eased, non-linear Bezier curves to move the mouse, proving to the website's telemetry that a physical mouse is moving around the page.  
-* **Variable Asymmetric Timers:** Scan loops are never fixed. Every refresh cycle utilizes a randomized delay (e.g., waiting 5 minutes, then 7 minutes, then 4 minutes) offset by micro-millisecond floats, making it mathematically impossible for ban-filters to detect a pattern.
+* **Browser Focus Spoofing:** Bots often click on windows that are out of focus, which is an immediate red flag. REONERA uses native OS hooks to silently pull your browser window into the active f[...]
+* **The Circadian Engine:** No human works for 12 hours straight without pausing. The engine tracks your shift duration and calculates massive 30-to-45-minute "organic breaks" every \~3 hours, tak[...]
+* **Ballistic Decoy Clicks:** Instead of just refreshing the page, REONERA occasionally fires randomized "decoy clicks" into a designated Safe Zone (empty whitespace on the page). It uses eased, n[...]
+* **Variable Asymmetric Timers:** Scan loops are never fixed. Every refresh cycle utilizes a randomized delay (e.g., waiting 5 minutes, then 7 minutes, then 4 minutes) offset by micro-millisecond [...]
 
+<a name="vision-engine"></a>
 ## **👁️ How the Vision Engine Works**
 
 Unlike web-scrapers, REONERA relies purely on what is physically rendered on your monitor.
@@ -30,9 +33,10 @@ Unlike web-scrapers, REONERA relies purely on what is physically rendered on you
 1. **The Baseline Snip:** You draw a bounding box around the area of the screen where tasks normally appear (e.g., an empty queue message). REONERA saves this as target\_state.png.  
 2. **The Dual-Match Process:** After every refresh, REONERA takes a live screenshot of that specific bounding box and compares it to the baseline using two algorithms:  
    * **Template Matching:** A high-speed pixel comparison to check for structural consistency.  
-   * **Structural Similarity Index (SSIM):** A secondary pass that evaluates luminance, contrast, and structure. This prevents false positives caused by sub-pixel font rendering shifts or minor browser artifacts.  
-3. **The Trigger:** If the live screen drastically deviates from the baseline (meaning a task has populated the empty space), the engine instantly halts the script to prevent refreshing over the task, locks the target, and fires your external alerts.
+   * **Structural Similarity Index (SSIM):** A secondary pass that evaluates luminance, contrast, and structure. This prevents false positives caused by sub-pixel font rendering shifts or minor br[...]
+3. **The Trigger:** If the live screen drastically deviates from the baseline (meaning a task has populated the empty space), the engine instantly halts the script to prevent refreshing over the t[...]
 
+<a name="asset-ecosystem"></a>
 ## **🎮 The Asset Ecosystem**
 
 REONERA acts as a full desktop customization suite. It comes pre-loaded with:
@@ -41,12 +45,13 @@ REONERA acts as a full desktop customization suite. It comes pre-loaded with:
 * **17 Hardware-Accelerated Backgrounds:** Real-time OpenGL fragment shaders running in the UI background.  
 * **82 Desktop Companions:** Choose from ninjas, slimes, werewolves, and more.  
 * Each character pack contains anywhere from 4 to 20+ different sprite sheets.  
-* **Draggable Anywhere:** Companions are rendered on frameless, transparent windows. You can click and drag them **anywhere across your desktop, placing them over your active browser window, taskbar, or a second monitor**. They will autonomously cycle through their animation states (Idle, Run, Attack) indefinitely.
+* **Draggable Anywhere:** Companions are rendered on frameless, transparent windows. You can click and drag them **anywhere across your desktop, placing them over your active browser window, taskb[...]
 
 *Note: The companion engine autonomously scans PNG sprite sheets, processing them into functional animations and generating the necessary manifest JSON files without manual input.*
 
-For deep-dive details on filesystem organization, see the [Advanced Architecture](#bookmark=id.advanced_architecture) section.
+For deep-dive details on filesystem organization, see the [Advanced Architecture](#advanced-architecture) section.
 
+<a name="quick-start"></a>
 ## **🚀 The 3-Step Workflow**
 
 To begin monitoring, you must map the engine to your screen.
@@ -68,6 +73,7 @@ Use the bottom buttons to assign your screen coordinates:
 
 When the status reads **SYSTEM READY**, click **START ENGINE**.
 
+<a name="ui--settings"></a>
 ## **🎛️ Complete Interface & Settings Breakdown**
 
 ### **Main Dashboard Controls**
@@ -76,7 +82,7 @@ When the status reads **SYSTEM READY**, click **START ENGINE**.
 | :---- | :---- |
 | **Profile Dropdown** | Switch between saved, encrypted .reonera\_profile layout files. |
 | \+ New | Generate a fresh profile layout for a different website. |
-| **Vision Preview (Top Right)** | A live 10-FPS thumbnail showing exactly what the script's eye sees. Click it to open the dedicated **Live Vision Map** window with Heatmaps and Flash Zone overlays. |
+| **Vision Preview (Top Right)** | A live 10-FPS thumbnail showing exactly what the script's eye sees. Click it to open the dedicated **Live Vision Map** window with Heatmaps and Flash Zone overla[...]
 | **Telemetry Chart** | A dynamic line graph tracking the variable time delays between your recent refresh loops. |
 | **TechWave Visualizer** | A theme-adaptive, multi-layered glowing wave synthesizer that animates while the engine is scanning. |
 | Clear Masks | Deletes all orange Mask Exclude blind spots you have drawn. |
@@ -130,17 +136,18 @@ When the status reads **SYSTEM READY**, click **START ENGINE**.
 | Deploy Shortcuts | Automatically wires shortcuts to your Windows Desktop and Start Menu. |
 | Rebuild Manifests | If you drop new PNG sprite sheets into the assets/companion/ folder, clicking this auto-compiles the JSON maps so the engine can read them. |
 
+<a name="advanced-architecture"></a>
 # **⚙️ REONERA: ADVANCED ARCHITECTURE**
 
 **Developer Operations, Thread Safety, & Deployment Guide**
 
-*This document serves as the technical companion to the main REONERA manual. It details the internal filesystem, execution threads, manual environment bootstrapping, and liability disclaimers for developers and contributors.*
+*This document serves as the technical companion to the main REONERA manual. It details the internal filesystem, execution threads, manual environment bootstrapping, and liability disclaimers for[...]
 
-This architecture supports the themes and companions defined in the [Asset Ecosystem](#bookmark=id.asset_ecosystem).
+This architecture supports the themes and companions defined in the [Asset Ecosystem](#asset-ecosystem).
 
 ## **📂 Project Architecture Tree**
 
-REONERA relies on a strict asset ecosystem. If you are adding custom AI-generated UI skins, new Shadertoy JSON backgrounds, or custom PNG companion sprites, they must be placed in their exact respective directories to be dynamically hot-loaded by the engine.
+REONERA relies on a strict asset ecosystem. If you are adding custom AI-generated UI skins, new Shadertoy JSON backgrounds, or custom PNG companion sprites, they must be placed in their exact res[...]
 
 REONERA/  
 ├── Reonera.py              \# Main GUI Controller & Layout Engine  
@@ -186,9 +193,9 @@ To ensure the REONERA dashboard never freezes while performing intense visual ca
 
 ### **Technical Implementation Details**
 
-* **Thread Isolation:** The heavy computer vision logic (screenshot scraping, pixel array conversions, and SSIM mathematics) runs entirely on a detached QThread. This guarantees the primary PyQt6 interface remains incredibly snappy, allowing the OpenGL shader canvas and your draggable companions to render smoothly at 60 FPS without micro-stuttering.  
-* **Thread-Safe Signaling:** The background scanning pipeline never directly mutates the user interface. It utilizes thread-safe Qt signals (pyqtSignal) to safely queue logs, telemetry delays, and screen capture updates back to the main interface thread.  
-* **Memory Management:** To prevent the severe memory leaks often associated with continuous Python screen capture, the Live Vision Map uses persistent C-level numpy memory blocks (np.ascontiguousarray), overwriting old frames rather than flooding the Python garbage collector.
+* **Thread Isolation:** The heavy computer vision logic (screenshot scraping, pixel array conversions, and SSIM mathematics) runs entirely on a detached QThread. This guarantees the primary PyQt6[...]
+* **Thread-Safe Signaling:** The background scanning pipeline never directly mutates the user interface. It utilizes thread-safe Qt signals (pyqtSignal) to safely queue logs, telemetry delays, an[...]
+* **Memory Management:** To prevent the severe memory leaks often associated with continuous Python screen capture, the Live Vision Map uses persistent C-level numpy memory blocks (np.ascontiguou[...]
 
 ## **🛠️ Step-by-Step Manual Deployment**
 
@@ -229,18 +236,16 @@ REONERA is a living platform. Current development goals include:
 1. **Ongoing Stabilization & Bug Fixes:** Minor optimizations to the OpenGL compiler context and multi-monitor coordinate tracking to handle Windows scaling quirks more gracefully.  
 2. **Adding UI customization for each theme.**
 3. **Dynamic Jitter Profiles:** Future updates will introduce customizable curve parameters for the ballistic decoy clicks.  
-4. **The "Stripped Core" Version:** We are actively planning a lightweight, headless variant of REONERA. This version will strip out the PyQt6 UI, the OpenGL graphics engine, and the companions entirely—shipping as a pure, ultra-low-overhead command-line interface (CLI) for users who only want the raw detection mathematics running silently in the background on weaker hardware.
+4. **The "Stripped Core" Version:** We are actively planning a lightweight, headless variant of REONERA. This version will strip out the PyQt6 UI, the OpenGL graphics engine, and the companions entire[...]
 
 ## **⚖️ Terms of Service & Security Disclaimer**
 
-Because REONERA interfaces with third-party web platforms, freelance boards, and task queues that employ strict anti-bot telemetry, this legal disclaimer must be acknowledged before deploying the software.
+Because REONERA interfaces with third-party web platforms, freelance boards, and task queues that employ strict anti-bot telemetry, this legal disclaimer must be acknowledged before deploying the[...]
 
 **CRITICAL NOTICE:** This software framework is intended strictly for educational, research, and personal workflow optimization purposes.
 
-Automating interactions, scraping screen data, or mimicking human traffic on third-party platforms may violate their specific Terms of Service (ToS), potentially resulting in account restrictions, suspensions, or permanent bans.
+Automating interactions, scraping screen data, or mimicking human traffic on third-party platforms may violate their specific Terms of Service (ToS), potentially resulting in account restrictions[...]
 
-The developers and contributors of REONERA assume **absolute zero liability** for how individuals deploy this toolkit. You are entirely responsible for analyzing your target platform's automation guidelines, ensuring your own compliance, and assessing the risks associated with headless, computer-vision, or hardware-emulated screen-scraping techniques.
+The developers and contributors of REONERA assume **absolute zero liability** for how individuals deploy this toolkit. You are entirely responsible for analyzing your target platform's automation guid[...]
 
 **Deploy at your own discretion.**
-
-
