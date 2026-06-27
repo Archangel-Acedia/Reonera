@@ -8,7 +8,7 @@
 
 ## <a name="what-is-reonera"></a>**🎯 What is REONERA? (The Use-Case)**
 
-REONERA was explicitly designed to monitor high-security, browser-based task queues and dashboards—such as AI training sites: Outlier, DataAnnotation, etc sites, freelance job boards, or rapid-response ticketing systems.
+REONERA was explicitly designed to monitor high-security, browser-based task queues and dashboards.
 
 When you are waiting for tasks to drop, manually refreshing a page for hours is inefficient and exhausting. REONERA automates this process by visually scanning the webpage for you, instantly halting and pinging your phone or desktop the millisecond a new task appears.
 
